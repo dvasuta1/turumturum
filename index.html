@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <style media='screen' type='text/css'>
+    @font-face {
+      font-family: 'AvenirNextBold';
+      src: url('src/assets/fonts/AvenirNext-Bold.ttf');
+      font-weight: bold;
+    }
+
+    @font-face {
+      font-family: 'AvenirNextMedium';
+      src: url('src/assets/fonts/AvenirNext-Medium.ttf');
+      font-weight: normal;
+    }
+
+    body {
+      margin: 0;
+    }
+
+    #gameOverlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        color: white;
+        background-color: black;
+        z-index: 1000;
+        font-family: 'AvenirNextBold';
+        font-size: 6vh;
+        display: none;
+      }
+
+      #gameOverlay > .parent {
+        display: flex;
+        min-height: 100vh;
+        text-align: center;
+      }
+
+      #gameOverlay > .parent > .child {
+        margin: auto;
+      }
+
+      @media (orientation: portrait) and (hover: none) and (pointer: coarse) {
+        #gameOverlay{
+          display: none;
+        }
+       }
+
+      @media (orientation: landscape) and (hover: none) and (pointer: coarse) {
+        #gameOverlay{
+          display: block;
+        }
+       }
+  </style>
+</head>
+
+<body>
+  <div style="font-family:'AvenirNextBold'; position:absolute; left:-1000px; visibility:hidden;">.</div>
+  <div style="font-family:'AvenirNextMedium'; position:absolute; left:-1000px; visibility:hidden;">.</div>
+  <div id='gameOverlay'>
+    <div class="parent">
+      <div class="child">POR FAVOR GIRE SU DISPOSITIVO</div>
+    </div>
+  </div>
+  <div id='gameDiv'></div>
+<script type="text/javascript" src="bundle.min.js"></script></body>
+
+</html>

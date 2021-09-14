@@ -1,0 +1,20 @@
+{
+  "find 3": "HALLA 3",
+  "find 4": "HALLA 4",
+  "find 2": "HALLA 2",
+  "5 free spins": "5 GIROS GRATIS",
+  "10 free spins": "10 GIROS GRATIS",
+  "50 free spins": "50 GIROS GRATIS",
+  "moves left": "MOVIMIENTOS RESTANTES",
+  "congratulations": "¡FELICIDADES!",
+  "you won": "GANASTE",
+  "interpolations": "!Interpolations: {{0}}",
+  "popups_join_title": "¿QUIERES UNIRTE?",
+  "popups_join_description": "CONSULTA AQUÍ PARA SABER MÁS SOBRE NUESTRO JUEGO",
+  "popups_join_moreinfo": "MÁS INFORMACIÓN",
+  "popups_oops_title": "¡HOLA, CAMPEÓN!",
+  "popups_oops_description": "HOY TE LUCISTE EN LA CANCHA DE LA LIGA DE CAMPEONES W. APROVECHA EL ENTRETIEMPO PARA ESTIRAR Y RECARGAR TU BUENA FORTUNA.\n VUELVE MAÑANA Y MÉTELE UN GOLAZO A TU SUERTE.\n¡TE ESPERAMOS!",
+  "game_tc_link": "Aplican TYC",
+  "popups_oops_close": "CERRAR",
+  "popups_oops_deposit": "DEPOSIT"
+}

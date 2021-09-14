@@ -1,0 +1,38 @@
+{
+    "desktop": {
+      "path": "./src/assets/",
+      "files": [{
+          "type": "image",
+          "key": "gamescene_background",
+          "url": "maingame_screen.png"
+        },
+        {
+          "type": "image",
+          "key": "result_screen",
+          "url": "result_screen.png"
+        }
+      ]
+    },
+    "nonDesktop": {
+      "path": "./src/assets/",
+      "files": [{
+          "type": "image",
+          "key": "gamescene_background",
+          "url": "maingame_screen-mobile-min.png"
+        },
+        {
+          "type": "image",
+          "key": "result_screen",
+          "url": "result_screen-mobile.png"
+        }
+      ]
+    },
+    "meta": {
+      "generated": "1401380327373",
+      "app": "Phaser 3 Asset Packer",
+      "url": "https://phaser.io",
+      "version": "1.0",
+      "copyright": "Photon Storm Ltd. 2018"
+    }
+  }
+  
